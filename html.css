@@ -1,0 +1,60 @@
+body{
+	background-image: url("images/bw-bg.png");
+	background-size: cover;
+	padding-top: 5%;
+	margin: 0;
+	/*
+	background-repeat: no-repeat;
+	*/
+}
+
+div{
+	margin: 0;
+}
+
+#l_image{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 0;
+	float: left;
+	width: 58%;
+	text-align: center;
+	margin: 10px;
+}
+
+#r_button{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 38%;
+	height: 478px;
+	float: left;
+}
+
+div.button{
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+#cartoon{
+	width: 355px;
+	height: 434px;
+}
+
+button{
+	border: 0;
+	width: 240px;
+	height: 49px;
+	font-size: 26px;
+}
+button:hover{
+	filter:alpha(opacity=70);   
+	-moz-opacity:0.7;   
+	-khtml-opacity: 0.7;   
+	opacity: 0.7; 
+}
+#btn1{
+	background-image: url(images/btn-blue.png);
+}
+#btn2{
+	background-image: url(images/btn-gray.png);
+}
